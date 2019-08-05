@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html id="doc" lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Thrice Revealed</title>
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- <link rel='stylesheet' id='ubud-style-css'  href='http://underdestruction.com/wordpress/wp-content/themes/ubud/style.css?ver=2014-02-20' type='text/css' media='all' /> -->
+</head>
+
+<body class="archive category category-work category-6 three-column landscape">
+    <div id="container" class="mybanner">
+        <header id="masthead" class="cf" role="banner">
+		    <div id="site-title" class="clearfix">
+				<h1>Thrice Revealed</h1>
+				<h2 class="site-description"><a href="http://maryam.ashoori.org">Maryam Ashoori</a>, IBM Research AI, 2019</h2>
+		    </div><!-- end #site-title -->
+	    </header><!-- end #masthead -->
+        <div class="space"></div>
+    </div>
+    <div class="whitecontent">
+        <div class="container">
+            <div class="space"></div>
+            <div class="row">
+                <p class="brighttitle">
+                <strong class="intro">R</strong>evelations provide us with insights into ourselves and the world around us.
+                <br>Revelations have the power to change our attitudes, <br>
+                our <strong id = 'views'>views</strong>,<br> our behaviors,<br> and our relationships. <br> 
+                Revelations enable us to grow when we cast aside the masks we present to the outside world, 
+                bring our focus inward, and honestly examine our true selves.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <p class="brighttitle boldtitle">
+                        <strong>Can an AI Experience Revelation?</strong>
+                    </p> 
+                </div>
+                <div class="col-md-8">
+                    <p class="brighttitle">
+                    In a quest to understand its own identity, a neural network was trained to create a depiction of its own self.
+                    <br>As neural networks are the product of human thought, the network trained itself by searching for images online of human faces, 
+                    reflecting humanity’s contribution in bringing it into existence. 
+                    But, to help the network find its own identity, it also searched for imagery of artificial intelligence. 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                <p class="brighttitle">
+                    The result shows us a figure that has chosen to reveal a multitude of truths to us: <br>
+                     - literally, by showing us what lies behind its mask; 
+                    <br> - symbolically, by demonstrating awareness of the mask and choosing to discard it; 
+                    <br>- metaphorically, by hinting at a future in which AI becomes intertwined with humanity.    
+                </p>
+            </div>    
+        </div>
+            <div class="row toppadding15">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="thumbnail">
+                        <img  src="images/1.jpg">
+                     </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row toppadding15">
+                <div class="col-md-12">
+                <p class="brighttitle">
+                This piece was created by applying Neural Clash on a generative adversarial network (GAN). 
+                In the first phase of training, the GAN was presented with thousands of images
+                of human faces to learn how to generate a human face. 
+                In the second phase of training, the GAN was trained using images resulting from a web
+                search of “artificial intelligence.” The choice of when to switch from the first to the second phase of training, 
+                as well as the selection of training image examples and hyperparameter values were made based on their ability 
+                to produce creative results. The image selected to portray the AI’s self-portrait was the one that most strongly revealed the AI’s personality to the artist.
+                </p>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p class="brighttitle boldtitle">
+                    <strong>Neural Clash:<br>Fusing Visual Motifs to Create Art</strong>
+                </p> 
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <img  src="images/2.jpg">
+                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <img  src="images/3.jpg">
+                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/5.jpg">
+                     </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/4.jpg">
+                     </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/6.jpg">
+                     </div>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-md-12">
+                     <p class="brighttitle">
+                     Neural Clash is a multi-phase training technique for simultaneous style and content
+                     transfer across a chain of training sets. The training process is applicable to any neural network,
+                     but in the creation of "Thrice Revealed", I focused on GANs, as they have been increasing popularity within the
+                     art community.
+                     </p>
+                     <p class="brighttitle">
+                     In Neural Clash, a neural net is trained in series of phases, with each phase introducing a new set of training data and a new set of hyperparameters. 
+                     The decision of when to switch from one phase of training to the next,
+                     as well as the selection of hyperparameter values, provides the artist with control over the creative aspects of the output.
+                     </p>               
+                </div>
+            </div>
+            <div class="row">
+                 <p class="brighttitle boldsubtitle"> <strong>Curation of the Dataset</strong></p>
+                 <div class="col-md-12">
+                    <p class="brighttitle"> The creation of “Thrice Revealed” required a combination of two training phases: 
+                    first, the network was trained on images of human faces, and in the second phase, it was trained on imagery of AI.
+                    <br>For training on human faces, a <a href="https://github.com/NVlabs/stylegan">StyleGAN</a> model was trained from scratch on high resolution portraits of 88 people that were photographed by the artist (720 images in total).
+                    However, that number of data points was not enough to yield fine facial details required for this piece. 
+                    Instead, a pre-trained StyleGAN model that was already pre-trained on 70,000 images of human faces at a 1024x1024 resolution was utilized.
+                    For the imagery of AI, a set of images around the concept of “artificial intelligence” were manually put together from the collections of royalty free and public domain images 
+                    online, tagged with “artificial intelligence,” “AI,” or “machine learning”. <br> A Python pipeline was developed to filter out noise and crop and convert training images
+                    to the format required by the pre-trained model. Images with watermarks, text labels, or undesired patterns were manually removed from the dataset. 
+                    The final dataset of AI imagery had 270 high-quality images in PNG format.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="brighttitle boldsubtitle"> <strong>Hyperparameter Tuning</strong></p><br>
+                <div class="col-md-11">
+                    <div class="thumbnail">
+                        <img  src="images/7.jpg">
+                    </div>
+                    <p class="brighttitle"> Hyperparameters can be thought of as control knobs to steer training towards a given direction. 
+                        We found the learning rate and the batch size the two most effective hyperparameters for producing interesting artistic results.
+                        The learning rate corresponds to the speed at which the model converges toward learning the data present in the train set. 
+                        The batch size defines the number of training examples that are passed to the model at each iteration. 
+                        The learning rate in this project was set to 0.003 and the batch size was set to 32. The model was trained on a 4 GPU machine, 
+                        and it took about five hours to complete one epoch.
+                        </p>
+                </div>
+            </div>
+            <div class="row">
+                 <p class="brighttitle boldsubtitle"> <strong>Training Duration</strong></p>
+                 <div class="col-md-6">
+                    <p class="brighttitle"> While the learning rate corresponds to how fast the system will update its internal features to reflect 
+                    the visual motifs in new dataset, the duration of training also impacts the extent to which features of a data set are learned. 
+                    If a model is trained for too long on a new data set, it will eventually lose the features learned on previous data sets. 
+                    After a single epoch, the internal features of the network are a blend of both facial features and features of AI imagery. 
+                    After subsequent epochs, the facial features learned by the network become dominated by the newer features learned from AI imagery. 
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <img  src="images/8.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                 <p class="brighttitle boldsubtitle"> <strong>Truncation Trick and Style Mixing</strong></p>
+                 <div class="col-md-12">
+                    <p class="brighttitle"> Once training is complete, the creative skills of the artist come in to the play. A trained model can produce a never-ending stream of new images, but as German AI artist Mario Klingemann says, the tricky part “is knowing what to do with it all”.
+                    In "Thrice Revealed", 300 samples were generated with different variations of truncation value (0.5 and 0.7) and through style mixing, different variations of a portrait were explore. 
+                    </p>
+                </div>
+            </div>
+            <div class = "row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                    <div class="thumbnail">
+                        <img  src="images/16.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                 <p class="brighttitle"> Neural Clash was also applied to other visual subjects to understand whether it can produce similar, visually-interesting results. 
+                 Following images are some examples of how Neural Clash fused human faces with visual motifs from imagery of antique rugs and cityscapes. 
+                 <br>
+                 Neural Clash has a lot of potential, and while my exploration was limited to blending faces with other visual motifs, I look forward to training new models with new imagery to see other kinds of style fusions that can be achieved.
+                 </p>
+            </div>
+            <div class="row">
+                 <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/9.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/10.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/11.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/12.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/13.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img  src="images/14.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                 <p class="brighttitle boldsubtitle"> <strong>Acknowledgement</strong></p>
+                 <p class="brighttitle "> I am grateful for feedback from Cicero Nogueira dos Santos, Justin Weisz, Prasanna Sattigeri, Aleksandra Mojsilovic, and Kush Varshney at IBM Research.</p>
+            <div class="space"></div>
+            </div>
+        </div>
+    </div>
+    </div>    
+</body>
+</html>

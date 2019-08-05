@@ -1,0 +1,262 @@
+
+#masthead{
+  padding-top: 50px;
+}
+
+body {
+	margin: 0 auto;
+	background: #fff;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #000;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("./images/1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.cover-image {
+	max-width: 2005px;
+	margin: 0 auto;
+}
+
+#masthead, #main-wrap{
+  max-width: 1305px;
+	margin: 0 auto;
+}
+
+
+.brighttitle{
+  color: #262626;
+  background: transparent ;
+  padding-left: 0px;
+  margin-bottom: 10px;
+  font-size: 21px ;
+  display: block;
+  margin-top: 10px ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mybanner{
+  padding-bottom: 500px;
+}
+
+.whitecontent {
+background-color:#fff;
+}
+
+.intro{
+  font-size: 35px ;
+}
+
+.boldtitle{
+  font-size: 35px ;
+}
+
+.boldsubtitle{
+  font-size: 30px ;
+}
+
+.space{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.thumbnail h3 {
+  min-height: 52px;
+
+}
+@media screen and (max-width: 1024px) {
+  
+  .thumbnail {
+    max-width: 450px;
+  } 
+}
+
+#masthead,
+#main-wrap,
+#colophon {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#primary {
+	padding-bottom: 30px;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/* font-weight: bold; */
+	-webkit-hyphens: auto;
+	   -moz-hyphens: auto;
+	    -ms-hyphens: auto;
+			hyphens: auto;
+}
+
+h1 {
+	margin: 44px 0 34px;
+	font-size: 48px;
+	font-size: 1.375rem;
+}
+
+h2 {
+  font-weight: 300;
+	margin: 44px 0 34px;
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.35;
+}
+
+.col-md-12{
+  margin-bottom: 50px;
+}
+
+.page2-right{
+  border-left: 1px solid silver;
+}
+
+.page2{
+  border: 1px solid silver;
+}
+
+/* Alignment */
+.alignleft,
+.alignright {
+	display: block;
+}
+.alignleft {
+	margin: 5px 30px 5px 0;
+	float: left;
+}
+.alignright {
+	margin: 5px 0 0 30px;
+	float: right;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+img.alignleft,
+img.alignright {
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.0 Header
+/*-----------------------------------------------------------------------------------*/
+#masthead {
+	position:relative;
+	display:block;
+	padding-bottom: 60px;
+}
+#site-title {
+	margin: 0;
+	padding: 35px 0 0;
+}
+#site-title h1 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 48px;
+	line-height: 1.15;
+	letter-spacing: -1px;
+	word-wrap: break-word;
+	color: #ffffff;
+}
+#site-title h1 a {
+	display: inline-block;
+	color: #ffffff;
+}
+#site-title h2.site-description {
+	margin: 0;
+	font-size: 17px;
+	line-height: 1.7;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+/* --- Main Menu + Main Search --- */
+
+.mobile-wrap {
+	position: relative;
+	height: 50px;
+	background: #fff;
+}
+
+p{
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#views{
+  font-weight: 500;
+}
+
+.page3img{
+  padding-top: 200px;
+  width: 100%;
+  height: 1000px;
+}
+
+.page4img{
+  float: right;
+  width: 800px;
+  height: 500px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.page4content{
+  padding-top: 20px;
+}
+
+.page5img{
+  width: 100%;
+  height: 100%;
+}
+
+.page6img{
+  padding-top: 100px;
+  width: 100%;
+  height: 80%;
+}
+
+.page7img{
+  padding-top: 100px;
+  width: 100%;
+  height: 80%;
+}
+
+.page8img{
+  padding-top: 100px;
+  width: 100%;
+  height: 80%;
+}
+
+.page9img{
+  padding-top: 100px;
+  width: 100%;
+  height: 80%;
+}
+
+.page10img{
+  padding-top: 100px;
+  width: 100%;
+  height: 80%;
+}
+
+.page11img{
+  padding-top: 100px;
+  width: 100%;
+  height: 80%;
+}
+
+.page12img{
+  padding-top: 100px;
+  width: 100%;
+  height: 80%;
+}
