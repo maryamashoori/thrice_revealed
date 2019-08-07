@@ -38,6 +38,19 @@ body {
   padding-bottom: 15px;
 }
 
+.darktitle{
+  color: #FFFFFF;
+  background: transparent ;
+  padding-left: 0px;
+  margin-bottom: 10px;
+  font-size: 21px ;
+  display: block;
+  margin-top: 10px ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
 .mybanner{
   padding-bottom: 500px;
 }
